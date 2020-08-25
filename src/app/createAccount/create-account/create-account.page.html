@@ -1,0 +1,77 @@
+
+<img src="assets/img/create_account.png" class= "ion-no-padding">
+
+<ion-grid fixed >
+  
+  <ion-row class= "ion-no-padding">
+    <ion-col size="2">
+    </ion-col>
+    <ion-col>
+      <h2 routerLink="/create-account">Sign In</h2>
+    </ion-col>
+    <ion-col>
+     <h2>Sign Up</h2>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class= "Rows">
+    <ion-col size = "12">
+    <ion-card style="border-radius: 25px;">
+      <ion-item>
+        <ion-input type="text" class="Text" placeholder="Full Name" #name></ion-input>
+      </ion-item>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class= "Rows">
+    <ion-col size = "12">
+    <ion-card style="border-radius: 25px;">
+      <ion-item>
+        <ion-input type="email" class="Text" placeholder="Mail" #mail></ion-input>
+      </ion-item>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class= "Rows">
+    <ion-col size = "12">
+    <ion-card style="border-radius: 25px;">
+      <ion-item>
+        <ion-input type="password" class="Text" placeholder="Password" #password></ion-input>
+      </ion-item>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class= "Rows">
+    <ion-col size = "12">
+    <ion-card style="border-radius: 25px;">
+      <ion-item>
+        <ion-input type="password" class="Text" placeholder="Confirm Password" #confirmPassword></ion-input>
+      </ion-item>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class= "RowButton">
+    <br><br><br>
+    <ion-col size="3"></ion-col>
+    <ion-col size="6">
+      <ion-button class = "Oval"  color="dark" 
+      (click)= "getData(name.value , mail.value , password.value , confirmPassword.value)" 
+       expand="block" size = "large" fill="outline">Sign Up</ion-button>
+      <br><br><br>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class = "Rows">
+    <ion-col size = "12" style="background:#330000">
+      <h4 style = "color:white" text-align: center> <b>What is alt_idea?</b></h4>
+      <br><br> 
+      <br><br>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+  

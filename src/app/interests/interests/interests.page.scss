@@ -1,0 +1,37 @@
+.Oval{
+    --border-radius: 50px ;
+   height: 30px;
+   color: black;
+   overflow: hidden;
+   
+  
+}
+
+.ColumnSpace{
+    margin-left: 8px;
+    margin-right: 8px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding: 0px;
+
+    overflow-y: scroll!important;
+}
+
+.buttons{
+    font-size:14px ;
+}
+ 
+.scroll{
+    overflow-y: scroll!important;
+}
+ #searchButton{
+    --background-activated: none;
+    --border-radius: 50px ;
+    height: 30px;
+    font-size: 14px;
+    color: black;
+    ::placeholder {
+        font-size: 14px; //sets placeholder font size
+      }
+ }

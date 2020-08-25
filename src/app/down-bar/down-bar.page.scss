@@ -1,0 +1,32 @@
+#explore{
+    font-size:22px ;
+
+}
+
+.upBar{
+    //--ion-tabbar-background-color:blue;
+    //--ion-tabs-background-color:var(--ion-tabbar-background-color, #ffffff);
+    
+   // color: #c49137;
+    //background: #00c6ff; 
+    //background-color: red;
+    //color: red;
+    height: 74px;
+  //top:54px !important;
+}
+
+#searchBar{
+    //background-color: white;
+    //color: white;
+    width: 320px;
+    height: 30px;
+    --border-radius: 700px;
+    margin-top: 15px;
+    --placeholder-color: black;
+    
+    color: blue;
+    //margin: 0px;
+    margin-left: -30px;
+}
+
+#chatIcon{}

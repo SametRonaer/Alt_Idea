@@ -1,0 +1,41 @@
+
+<br><br>
+<ion-grid style="margin: 15px;">
+  <ion-row>
+    <ion-col>
+      <h1>Pick your skills.</h1>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-button id = "searchButton"  color = "black"  size = "small" fill="outline"> 
+        <ion-icon name="search"></ion-icon>
+        <ion-input placeholder= "Search or type skills." class="ion-no-padding"></ion-input>
+      </ion-button>
+     
+    
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+<ion-grid style="padding: 0px; margin: 0px;">
+
+  <ion-row class = "scroll" style="padding: 0px; margin: 0px;"  *ngFor="let intlist of interests">
+   
+    <ion-col class = "ColumnSpace">
+      <ion-button *ngFor="let title of intlist.titles" color="dark" [id] = title shape = "round"   size = "small" fill= {{fill}} 
+       (click)= "changeColor(title)">
+        <div class="buttons">{{title}}</div>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+  
+
+
+  
+
+</ion-grid>
+
+
